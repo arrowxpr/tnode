@@ -35,4 +35,4 @@ tnode.sh
 
 Enjoy the convenience of setting up your Node.js TypeScript projects effortlessly with tnode! 🚀
 
-![Alt text](gif/demo.gif)
+![Alt text](.gif/demo.gif)
