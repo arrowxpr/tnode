@@ -29,7 +29,7 @@ done
 
 # Check if a folder with the same name already exists
 while [[ -d "$name" ]]; do
-    printf "$bold_red Error: A folder with the name '$name' already exists.\n"
+    printf "$bold_red Error: A folder with the name '$name' already exists.\n $bold_yellow "
     read name
 done
 
@@ -56,7 +56,7 @@ npm i -D ts-node > /dev/null 2>&1
 
 
 # Create tsconfig.json file
-npx tsconfgig.json > /dev/null 2>&1
+npx tsconfig.json
 
 
 # Install ESLint and TypeScript ESLint plugins as development dependencies
@@ -137,7 +137,7 @@ greeting.greet();" > src/index.ts
 
 printf "\n$check_mark$bold_green Project $bold_yellow$name$bold_green created successfully!\n"
 
-printf "\n$info$blue The following scripts will save your life\n\n"
+printf "\n$info $blue The following scripts will save your life\n\n"
 printf "$bold_yellow npm run start $white> Execute your typescript (index.ts) directly\n"
 printf "$bold_yellow npm run build $white> Convert your Typescript into JavaScript\n"
 printf "$bold_yellow npm run js $white> Execute your JavaScript\n\n"
