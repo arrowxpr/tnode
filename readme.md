@@ -1,4 +1,4 @@
-# tnode - A bash script to automate nodejs project setup
+# tnode shell - A bash script to automate nodejs project setup
 **Get your NodeJS Typescript project set up with just one command!**
 
 
@@ -16,21 +16,23 @@ Setting up a nodejs project with typescript and eslint is quite a hassle. Use th
 
 
 
-# How to use tnode:
-1- Get **tnode.sh** and move it to `/usr/local/bin` in order to be globally accessible on your system.
+# How to use tnode shell:
+1- Get **tnode.sh** and move it to `/usr/local/bin` in order to be globally accessible on your system. You may need to use `super` to make changes to that directory.
 
 ```
-mv tsnode.sh /usr/local/bin/tsnode.sh
+mv tnode.sh /usr/local/bin/tnode.sh
 ```
 
 2- Give the script execution permission.
 ``` 
-chmod +x /usr/local/bin/tsnode.sh
+chmod +x /usr/local/bin/tnode.sh
 ```
 
-3- Now just type tsnode.sh anywhere on your system!
+3- Now just type tnode.sh anywhere on your system!
 ```
-tsnode.sh
+tnode.sh
 ```
 
 Enjoy the convenience of setting up your Node.js TypeScript projects effortlessly with tnode! 🚀
+
+![Alt text](gif/demo.gif)
